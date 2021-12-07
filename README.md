@@ -6,7 +6,7 @@
 * Макет
 * Деплой
 
-**Интро**
+**Описание**
 
 Проект Путешествие по России - это одностраничный сайт, рассказывающий нам об удивительных уголках страны.
 
@@ -18,3 +18,6 @@
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
+**Деплой**
+
+https://loown101.github.io/russian-travel/index.html
