@@ -1,0 +1,34 @@
+.footer {
+  max-width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer:nth-child(n) {
+  padding-bottom: 24px;
+}
+
+@media (max-width: 1024px) {
+  .footer:nth-child(n) {
+    margin: 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer:nth-child(n) {
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer:nth-child(n) {
+    margin: 0 16px;
+  }
+}

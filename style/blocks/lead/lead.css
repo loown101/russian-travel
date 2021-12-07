@@ -1,0 +1,23 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 100%;
+}
+
+.lead:nth-child(n) {
+  margin-bottom: 92px;
+}
+
+@media (max-width: 768px) {
+  .lead:nth-child(n) {
+    margin: 0 0 88px 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead:nth-child(n) {
+    margin: 0 0 64px 0;
+  }
+}
