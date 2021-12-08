@@ -22,7 +22,6 @@
 @media (max-width: 768px) {
   .photo-grid__list {
     grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
-    column-gap: 14px;
     row-gap: 12px;
   }
 }

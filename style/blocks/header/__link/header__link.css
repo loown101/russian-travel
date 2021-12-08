@@ -1,7 +1,5 @@
 .header__link {
   box-sizing: border-box;
-  
-  display: inline-block;
 
   margin: 0;
   padding: 0;
@@ -14,18 +12,15 @@
 
   color: #fff;
 
-  padding-bottom: 5px;
+  padding-bottom: 6px;
 }
 
-.header__link:nth-child(n) {
-  padding-left: 18px;
-}
 
 .header__link:hover { 
   opacity: 0.8;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .header__link {
     font-size: 18px;
   } 

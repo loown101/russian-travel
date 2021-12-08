@@ -6,13 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
+  <link rel="shortcut icon" href="./images/__logo.svg">
   <link rel="stylesheet" href="./style/index.css">
 </head>
 
 <body class="page">
 
   <header class="header">
-    <img class="header__logo" src="./images/__logo.svg" alt="Логотип ">
+    <img class="header__logo" src="./images/__logo.svg" alt="Путешествие по Россиии.">
     <div class="header__links">
       <a href="#" class="header__link header__link_active">Ru</a>
       <a href="#" class="header__link">En</a>
@@ -23,10 +24,10 @@
     <section id="lead" class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="lead__pic-container">
-        <img src="./images/__image.jpg" alt="Маршрут на фоне интерьера поезда" class="lead__pic-image">
-        <figure class="lead__pic-text">ваша полка — верхняя</figure>
-      </div>
+      <figure class="lead__pic-container">
+        <img src="./images/__image.jpg" alt="Маршрут на фоне спящего человека в поезде." class="lead__pic-image">
+        <figcaption class="lead__pic-text">ваша полка — верхняя</figcaption>
+      </figure>
 
     </section>
 
@@ -40,17 +41,17 @@
         взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали
         и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li class="intro__list-text"><span class="intro__list-text intro__list-text_font-style_bold">Часовых
+        <li class="intro__list-text"><span class="intro__span-accent">Часовых
             поясов</span> 11
         </li>
-        <li class="intro__list-text"><span class="intro__list-text intro__list-text_font-style_bold">Объектов природного
+        <li class="intro__list-text"><span class="intro__span-accent">Объектов природного
             наследия ЮНЕСКО</span> 12</li>
-        <li class="intro__list-text"><span class="intro__list-text intro__list-text_font-style_bold">Объектов
+        <li class="intro__list-text"><span class="intro__span-accent">Объектов
             культурного
             наследия ЮНЕСКО</span> 16</li>
-        <li class="intro__list-text"><span class="intro__list-text intro__list-text_font-style_bold">Природных
+        <li class="intro__list-text"><span class="intro__span-accent">Природных
             заповедников</span> 105</li>
-        <li class="intro__list-text"><span class="intro__list-text intro__list-text_font-style_bold">Аэропортов</span>
+        <li class="intro__list-text"><span class="intro__span-accent">Аэропортов</span>
           241
         </li>
       </ul>
@@ -58,30 +59,31 @@
 
     <section id="photo-grid" class="photo-grid" aria-label="h2">
       <ul class="photo-grid__list">
-        <li class="photo-grid__card"><img src="./images/photo_one.jpg" alt="Фотография вида из окна поезда"
+        <li class="photo-grid__card"><img src="./images/photo_one.jpg" alt="Вид из окна поезда на лес."
             class="photo-grid__photo"></li>
-        <li class="photo-grid__card"><img src="./images/photo_two.jpg" alt="Фотография горы, вид верху"
+        <li class="photo-grid__card"><img src="./images/photo_two.jpg" alt="Облака и пик горы. Вид сверху."
             class="photo-grid__photo"></li>
-        <li class="photo-grid__card"><img src="./images/photo_three.jpg" alt="Фотография волка"
+        <li class="photo-grid__card"><img src="./images/photo_three.jpg" alt="Собака, стоящая на сене."
             class="photo-grid__photo"></li>
-        <li class="photo-grid__card"><img src="./images/photo_four.jpg" alt="Фотография леса, вид сверху"
+        <li class="photo-grid__card"><img src="./images/photo_four.jpg" alt="Таежный лес. Вид сверху."
             class="photo-grid__photo"></li>
-        <li class="photo-grid__card"><img src="./images/photo_five.jpg" alt="Фотография автомобильного колеса"
+        <li class="photo-grid__card"><img src="./images/photo_five.jpg" alt="Машина стоит на льду. Иллюстрация колеса."
             class="photo-grid__photo"></li>
-        <li class="photo-grid__card"><img src="./images/photo_six.jpg" alt="Фотография пляжа" class="photo-grid__photo">
-        </li>
-        <li class="photo-grid__card"><img src="./images/photo_seven.jpg" alt="Фотография горы"
+        <li class="photo-grid__card"><img src="./images/photo_six.jpg" alt="Песчанный пляжя на фоне холмов."
             class="photo-grid__photo">
         </li>
-        <li class="photo-grid__card"><img src="./images/photo_eight.jpg" alt="Фотография пешедходного знака"
-            class="photo-grid__photo"></li>
-        <li class="photo-grid__card"><img src="./images/photo_nine.jpg" alt="Фотография сопки"
-            class="photo-grid__photo"></li>
-        <li class="photo-grid__card"><img src="./images/photo_ten.jpg" alt="Фотография холма" class="photo-grid__photo">
+        <li class="photo-grid__card"><img src="./images/photo_seven.jpg" alt="Пик горы." class="photo-grid__photo">
         </li>
-        <li class="photo-grid__card"><img src="./images/photo_eleven.jpg" alt="Фотография набережной гряды"
+        <li class="photo-grid__card"><img src="./images/photo_eight.jpg" alt="Пешедходный знак."
             class="photo-grid__photo"></li>
-        <li class="photo-grid__card"><img src="./images/photo_twelve.jpg" alt="Фотография равнины"
+        <li class="photo-grid__card"><img src="./images/photo_nine.jpg" alt="Сопка. Вид сверху."
+            class="photo-grid__photo"></li>
+        <li class="photo-grid__card"><img src="./images/photo_ten.jpg" alt="Равнина и заснеженный холм."
+            class="photo-grid__photo">
+        </li>
+        <li class="photo-grid__card"><img src="./images/photo_eleven.jpg" alt="Набережная гряда."
+            class="photo-grid__photo"></li>
+        <li class="photo-grid__card"><img src="./images/photo_twelve.jpg" alt="Равнина в тумане."
             class="photo-grid__photo"></li>
       </ul>
     </section>
@@ -93,10 +95,10 @@
 
           <div class="places__website">
             <p class="places__link-heading">URL</p>
-            <a href="http://park-kosa.ru" class="places__link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="places__link" target="_blank">park-kosa.ru</a>
           </div>
 
-          <img src="./images/curonian_spit.jpg" alt="Фото Куршской косы" class="places__pic">
+          <img src="./images/curonian_spit.jpg" alt="Водный горизонт Курской косы." class="places__pic">
 
           <div class="places__main-text">
             <p class="places__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -119,11 +121,12 @@
 
           <div class="places__website">
             <p class="places__link-heading">URL</p>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link">National
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link"
+              target="_blank">National
               Geographic</a>
           </div>
 
-          <img src="./images/Kola_Peninsula.jpg" alt="Фото Кольского полуострова" class="places__pic">
+          <img src="./images/kola_peninsula.jpg" alt="Заснежанный Кольский полуосторов." class="places__pic">
 
           <div class="places__main-text">
             <p class="places__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
@@ -144,10 +147,10 @@
 
           <div class="places__website">
             <p class="places__link-heading">URL</p>
-            <a class="places__link" href="https://www.facebook.com/vera.bashm">Facebook</a>
+            <a class="places__link" href="https://www.facebook.com/vera.bashm" target="_blank">Facebook</a>
           </div>
 
-          <img src="./images/Altai.jpg" alt="Фото Алтайского края" class="places__pic">
+          <img src="./images/altai.jpg" alt="Алтайский лес." class="places__pic">
 
           <div class="places__main-text">
             <p class="places__paragraph">Алтай — одно из красивейших мест в России.
@@ -166,10 +169,10 @@
 
           <div class="places__website">
             <p class="places__link-heading">URL</p>
-            <a href="https://vk.com/baikalmile" class="places__link">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="places__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
 
-          <img src="./images/Lake_Baikal.jpg" alt="Фото зимнего озера Байкал" class="places__pic">
+          <img src="./images/lake_baikal.jpg" alt="Ледяное покрытие Байкала." class="places__pic">
 
           <div class="places__main-text">
             <p class="places__paragraph">Всем известен Байкал как крупнейшее озеро
@@ -189,10 +192,10 @@
 
           <div class="places__website">
             <p class="places__link-heading">URL</p>
-            <a href="http://vodlozero.ru" class="places__link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="places__link" target="_blank">http://vodlozero.ru/</a>
           </div>
 
-          <img src="./images/Karelia.jpg" alt="Фото Карелии" class="places__pic">
+          <img src="./images/karelia.jpg" alt="Национальный парк Карелии." class="places__pic">
 
           <div class="places__main-text">
             <p class="places__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
@@ -207,13 +210,14 @@
       </ul>
     </section>
 
-    <section id="cover" class="cover" aria-label="h2">
-      <div class="cover__container"></div>
-      <div class="cover__overlay"></div>
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__title">До Байкала «на собаках»</a>
-      <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы до Байкала на
-        электричках.
-      </p>
+    <section id="cover" aria-label="h2">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы до Байкала на
+          электричках.
+        </p>
+      </a>
+
     </section>
   </main>
 

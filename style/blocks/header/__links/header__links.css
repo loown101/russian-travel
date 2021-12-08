@@ -1,0 +1,12 @@
+.header__links {
+  display: flex;
+  justify-content: space-between;
+
+  min-width: 80px;
+}
+
+@media (max-width: 767px) {
+  .header__links {
+    min-width: 60px;
+  }
+}
