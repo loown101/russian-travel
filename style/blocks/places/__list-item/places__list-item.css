@@ -31,7 +31,6 @@
 
     grid-template-columns: 340px 352px;
     column-gap: 22px;
-    row-gap: 48px;
   }
 
   .places__list-item:nth-child(n) {
